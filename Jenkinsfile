@@ -2,7 +2,6 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_HOST = 'tcp://172.21.0.2:2375'
         DOCKER_IMAGE = 'realjenkshit:latest'
     }
 

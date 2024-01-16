@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+        label 'jenkins-agentsocat' // Replace with your specific agent label
+    }
 
     environment {
         DOCKER_IMAGE = 'realjenkshit:latest'

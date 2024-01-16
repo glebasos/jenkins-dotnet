@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'jenkins-agentsocat' // Replace with your specific agent label
+        dockerfile true
     }
 
     environment {
